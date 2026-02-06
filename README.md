@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сайт-визитка Артёма</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
@@ -69,69 +69,3 @@
 
 </body>
 </html>
-
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
-}
-
-header {
-    background-color: #2c3e50;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-.slogan {
-    font-style: italic;
-    margin-bottom: 15px;
-}
-
-nav a {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav a:hover {
-    text-decoration: underline;
-    color: #ffcc00;
-}
-
-main {
-    max-width: 900px;
-    margin: auto;
-    padding: 20px;
-}
-
-section {
-    background: white;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-}
-
-h1, h2 {
-    margin-top: 0;
-}
-
-.avatar {
-    width: 150px;
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto 15px;
-}
-
-ul {
-    list-style-type: square;
-}
-
-footer {
-    text-align: center;
-    padding: 15px;
-    background-color: #2c3e50;
-    color: white;
-}
